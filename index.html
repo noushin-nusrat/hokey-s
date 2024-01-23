@@ -510,44 +510,97 @@
             </div>
         </section>
         <!-- Get In Touch section -->
-        <section class="container mx-auto p-5 mt-16 ">
-            <div class="flex flex-col justify-center border-y-2 border-dashed items-center text-center py-4">
-                <h3 class="text-4xl font-extrabold  mt-10">Get In Touch</h3>
-                <p class="font-medium text-lg mt-6 text-[#13131899]">Connect with us today for personalized assistance
+        <section class="container mx-auto p-5 mt-16">
+            <div class=" my-8 text-center  border-y-2 border-dashed">
+                <h1 class="text-2xl lg:text-3xl mt-7 font-extrabold">Get In Touch</h1>
+                <p class="py-3 pb-11 text-gray-400">Connect with us today for personalized assistance
                     and <br> meaningful conversations.</p>
             </div>
-            <div class=" flex justify-between items-center">
-                <!-- info -->
-                <div
-                    class=" p-6 border-2 border-[rgba(19, 19, 24, 0.10)] rounded-lg mt-16 flex flex-col justify-center items-center">
-                    <div
-                        class="flex flex-col mb-6 justify-center items-start pl-6 rounded-xl w-full h-full lg:w-[350px] lg:h-[200px] bg-[#bced6e1a]">
+
+            <div class="flex flex-col lg:flex-row gap-10 pb-11 mx-4 lg:mx-0">
+                <div class="flex flex-col gap-3 flex-1">
+                    <div class="bg-[#bced6d1a] p-11 rounded-2xl">
                         <img src="./Images/Group 1171275317.png" alt="">
-                        <div class="mt-6">
-                            <p class="text-[#13131899]">Phone Number : </p>
-                            <p class="font-bold">(+62) 123-321-543</p>
-                        </div>
+                        <p class="text-gray-400 p-2">Phone Number :</p>
+                        <p class="font-bold">(+62) 123-321-543</p>
                     </div>
-                    <div
-                        class="flex flex-col mb-6 justify-center items-center pl-6 w-full h-full lg:w-[350px] lg:h-[200px] rounded-xl bg-[#fddb5f1a]">
+                    <div class="bg-[#bced6d1a] p-11 rounded-2xl">
                         <img src="./Images/Group 1171275318.png" alt="">
-                        <div class="mt-6">
-                            <p class="text-[#13131899]">Email : </p>
-                            <p class="font-bold">hockeys@support.com</p>
-                        </div>
+                        <p class="text-gray-400 p-2">Email : </p>
+                        <p class="font-bold">hockeys@support.com</p>
                     </div>
-                    <div
-                        class="flex flex-col mb-6 justify-center items-center pl-6 w-full h-full lg:w-[350px] lg:h-[200px] rounded-xl bg-[#629cf31a]">
+                    <div class="bg-[#629cf31a] p-11 rounded-2xl">
                         <img src="./Images/Group 1171275321.png" alt="">
-                        <div class="mt-6">
-                            <p class="text-[#13131899]">Location :</p>
-                            <p class="font-bold">152/1 Mohakhali Wireless <br> Gate</p>
-                        </div>
+                        <p class="text-gray-400 p-2">Location :</p>
+                        <p class="font-bold">152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <!-- form -->
-                <div>
-                    <input type="text" placeholder="Type here" class="input input-bordered input-md w-full max-w-xs" />
+                <div class="grid grid-cols-1 lg:grid-cols-2 flex-1 gap-6 mx-4 lg:mx-0">
+                 
+                    <div class="">
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="label-text font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Enter your full name"
+                                class="input input-bordered w-full max-w-xs" />
+                        </label>
+                    </div>
+                  
+                    <div>
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="label-text font-bold">Your Email</span>
+                            </div>
+                            <input type="email" placeholder="Enter your email"
+                                class="input input-bordered w-full max-w-xs" />
+                        </label>
+                    </div>
+                  
+                    <div>
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="label-text font-bold">Subject</span>
+                            </div>
+                            <input type="text" placeholder="Enter your subject"
+                                class="input input-bordered w-full max-w-xs" />
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="label-text font-bold">Phone Number</span>
+                            </div>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input input-bordered w-full max-w-xs" />
+                        </label>
+                    </div>
+
+            
+                    <div class="lg:col-span-2">
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                                <span class="label-text font-bold">Message</span>
+                            </div>
+                        </label>
+                        <textarea placeholder="Write your message"
+                            class="textarea textarea-bordered textarea-lg h-64 w-full"></textarea>
+
+                    </div>
+                    <button class="btn bg-[#FF4240] w-full lg:col-span-2 text-white">Send Message</button>
+                </div>
+            </div>
+
+            <!-- Social media section -->
+            <div class="text-center mt-8 mb-16 bg-gray-100 lg:pt-2 p-6 rounded-2xl mx-3 lg:mx-0">
+                <h1 class="font-bold py-3 lg:text-2xl ">Social Media</h1>
+                <div class="flex gap-6 justify-center">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+
                 </div>
             </div>
         </section>
